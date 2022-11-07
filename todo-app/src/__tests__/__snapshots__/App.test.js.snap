@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="App"
+    >
+      <h2>
+        Todolist
+      </h2>
+      <div>
+        -Cut the grass
+        <button>
+          X
+        </button>
+      </div>
+      <div>
+        -Pull weeds
+        <button>
+          X
+        </button>
+      </div>
+      <div>
+        <form>
+          <label>
+            New Todo:
+          </label>
+          <input
+            value=""
+          />
+          <button>
+            Add Todo
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

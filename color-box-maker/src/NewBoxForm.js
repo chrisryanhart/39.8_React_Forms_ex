@@ -22,7 +22,6 @@ const NewBoxForm = ({addBox}) => {
         setBoxFormData(INITIAL_STATE);
     }
 
-
     return (
         <form onSubmit={handleSubmit}>
             <div>

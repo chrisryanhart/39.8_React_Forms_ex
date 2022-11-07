@@ -6,11 +6,6 @@ const Box = ({id, remove, width="100px", height='100px', backgroundColor='greeny
 
     const handleClick = () => remove(id);
     
-
-    // const handleClick = () => {
-    //     const { id } = e.target;
-    //     remove(id);
-    // }
     return (
         <>
            <div className='Box' id={id} key={id} style={{width, height, backgroundColor}}/>
