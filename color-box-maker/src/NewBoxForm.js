@@ -36,7 +36,7 @@ const NewBoxForm = ({addBox}) => {
                     onChange={handleChange}
                 />
 
-                <label htmlFor='backgroundColor'>BG Color: </label>
+                <label htmlFor='backgroundColor'>BG Color:</label>
                 <input 
                     id='backgroundColor' 
                     name='backgroundColor' 

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <form>
+    <div>
+      <label
+        for="width"
+      >
+        Width: 
+      </label>
+      <input
+        id="width"
+        name="width"
+        value=""
+      />
+      <label
+        for="height"
+      >
+        Height: 
+      </label>
+      <input
+        id="height"
+        name="height"
+        value=""
+      />
+      <label
+        for="backgroundColor"
+      >
+        BG Color:
+      </label>
+      <input
+        id="backgroundColor"
+        name="backgroundColor"
+        value=""
+      />
+    </div>
+    <button>
+      Add Box
+    </button>
+  </form>
+</DocumentFragment>
+`;

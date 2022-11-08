@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+    style="width: 100px; height: 100px; background-color: greenyellow;"
+  />
+  <button>
+    X
+  </button>
+</DocumentFragment>
+`;

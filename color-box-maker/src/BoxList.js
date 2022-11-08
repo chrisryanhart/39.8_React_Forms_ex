@@ -9,8 +9,7 @@ const BoxList = () => {
             {id: uuid(), width: "100px", height: "100px", backgroundColor: "blue"},
             {id: uuid(), width: "100px", height: "100px", backgroundColor: "yellow"}
         ]
-
-
+        
     const [boxes,setBoxes] = useState(INITIAL_STATE);
 
     const addBox = (width,height,backgroundColor) => {

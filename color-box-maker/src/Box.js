@@ -8,7 +8,7 @@ const Box = ({id, remove, width="100px", height='100px', backgroundColor='greeny
     
     return (
         <>
-           <div className='Box' id={id} key={id} style={{width, height, backgroundColor}}/>
+           <div className='Box' key={id} style={{width, height, backgroundColor}}/>
            <button onClick={handleClick}>X</button>
         </>
     );
